@@ -1,0 +1,14 @@
+<Window x:Class="CanvasPractice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CanvasPractice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas Name="canvas1" MouseDown="Canvas_MouseDown" MouseMove="Canvas_MouseMove">
+        <Canvas.Background>
+            <SolidColorBrush Color="White" Opacity="1"/>
+        </Canvas.Background>
+    </Canvas>
+</Window>
